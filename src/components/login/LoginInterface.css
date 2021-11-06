@@ -1,0 +1,79 @@
+.submit-btn {
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.img-stl {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 100%;
+}
+
+.img-cont {
+  height: 100%;
+}
+
+.log-cont {
+  height: 100%;
+  width: 100%;
+  /* text-align: center; */
+  background-color: rgb(240, 255, 240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"],
+select {
+  background-color: rgb(241, 255, 230);
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="password"],
+select {
+  width: 100%;
+  background-color: rgb(241, 255, 230);
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-txt {
+  text-align: center;
+}
+
+.bottom-txt {
+  text-align: center;
+  font-size: small;
+}
+
+.signup-txt {
+  cursor: pointer;
+}
+
+.final-bot-txt {
+  margin-top: 40px;
+  font-size: smaller;
+}
+
+.sm-txt {
+  margin-left: 5px;
+  font-size: small;
+}
